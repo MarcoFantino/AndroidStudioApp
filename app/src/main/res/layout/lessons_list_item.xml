@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="2dp"
+        android:scrollbars="horizontal">
+
+        <TextView
+            android:id="@+id/txtContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="70dp"
+            android:text="Teacher:"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="@+id/txtSlot1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtSlot1" />
+
+        <Button
+            android:id="@+id/txtSlot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:width="10dp"
+            android:text="15-16"
+            android:textAlignment="center"
+            app:backgroundTint="#4CAF50"
+            app:layout_constraintStart_toEndOf="@+id/txtContact"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/txtSlot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:width="50dp"
+            android:text="16-17"
+            android:textAlignment="center"
+            app:backgroundTint="#4CAF50"
+            app:layout_constraintStart_toEndOf="@+id/txtSlot1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/txtSlot3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:width="50dp"
+            android:text="17-18"
+            android:textAlignment="center"
+            app:backgroundTint="#4CAF50"
+            app:layout_constraintStart_toEndOf="@+id/txtSlot2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/txtSlot4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:width="50dp"
+            android:text="18-19"
+            android:textAlignment="center"
+            app:backgroundTint="#4CAF50"
+            app:layout_constraintStart_toEndOf="@+id/txtSlot3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</HorizontalScrollView>
+

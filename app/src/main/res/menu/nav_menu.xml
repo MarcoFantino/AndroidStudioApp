@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+    <item
+        android:id="@+id/ic_booking"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:title="Book Now"/>
+    <item
+        android:id="@+id/ic_reservation"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="Reservations"/>
+
+</menu>
